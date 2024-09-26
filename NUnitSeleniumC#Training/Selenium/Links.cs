@@ -26,8 +26,10 @@ namespace NUnitSeleniumC_Training.Selenium
             foreach (IWebElement l in links)
             {
                 // fetches the text of the element
-                Console.WriteLine(l.Text + "URL is" + l.GetAttribute("href"));
-                
+                Console.WriteLine(l.Text + "URL is" + l.GetAttribute("href");
+                Console.WriteLine("The links are clicked");
+
+
             }
 
 
